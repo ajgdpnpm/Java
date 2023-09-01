@@ -9,7 +9,7 @@ public class Sample3 {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/test";
         String username = "root";
-        String password = "779554aa";
+        String password = "＊＊＊＊＊＊＊＊";
 
         try (Connection conn = DriverManager.getConnection(url, username, password)) {
             // ランダムに1問の問題を取得するクエリ
